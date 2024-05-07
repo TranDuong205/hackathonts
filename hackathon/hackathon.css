@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+.btn-add{
+    background-color: blue;
+    color: white;
+}
+  
+.work-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.work-left {
+    display: flex;
+    align-items: center;
+}
+
+.work-right {
+    display: flex;
+}
+
+.work-item p {
+    margin-left: 10px;
+}
+
+.work-right {
+    gap: 10px;
+}

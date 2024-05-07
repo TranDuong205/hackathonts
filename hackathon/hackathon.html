@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hackathon.css">
+    <link  rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="container">
+        <div class="house-work">
+          <header class="header">
+             <h4> Danh sách công việc </h4>
+             <input
+             class="header-input"
+             placeholder="nhập tên công việc"
+             type="text"
+           />
+           <button class="btn-add"> Thêm </button>
+          </header>
+          <body>
+            <ul class="list-work">
+                <li class="work-item">
+                  <div class="work-left">
+                    <input type="checkbox" onclick="choose()">
+                    <p> Code </p>
+                  </div>
+                  <div class="work-right"> 
+                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash-can"></i>
+                  </div>
+                </li>
+                <li class="work-item">
+                    <div class="work-left">
+                      <input type="checkbox" type="click" onclick="choose()">
+                      <p> Giặt quần áo </p>
+                    </div>
+                    <div class="work-right">
+                      <i class="fa-solid fa-pen"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </li>
+                  <li class="work-item">
+                    <div class="work-left">
+                      <input type="checkbox" type="text" onclick="choose()">
+                      <p> Quét nhà </p>
+                    </div>
+                    <div class="work-right">
+                      <i class="fa-solid fa-pen"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </li>
+                  <li class="work-item">
+                    <div class="work-left">
+                      <input type="checkbox" onclick="choose()">
+                      <p> Lau nhà </p>
+                    </div>
+                    <div class="work-right">
+                      <i class="fa-solid fa-pen"></i>
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                  </li>
+              </ul>
+          </body>
+          <footer> 
+            <h6> Công việc đã hoàn thành 0/4 </h6>
+          </footer>
+    <script src="./hackathon.js"></script>
+</body>
+</html>
